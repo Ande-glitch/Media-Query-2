@@ -1,0 +1,61 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.left 
+{
+    min-width: 400px;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.image
+{
+    width: 200px;
+}
+.Craig, .Richard
+{
+    margin-top: 75px;
+}
+
+.bilder {
+    margin: 0px 20px;
+}
+span {
+    writing-mode: vertical-lr;
+    /* border: 10px red solid; */
+    float: inline-end;
+}
+@media (max-width: 598px) 
+{
+    .container 
+    {
+        display: flex;
+        flex-direction: column;
+    }  
+    .right
+    {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1024px)
+{
+    .container2 
+    {
+        display: flex;
+        /* border: 10px solid gray; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}
